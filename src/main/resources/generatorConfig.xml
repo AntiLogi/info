@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE generatorConfiguration
+        PUBLIC "-//mybatis.org//DTD MyBatis Generator Configuration 1.0//EN"
+        "http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd">
+
+<!--具体配置可参见doc目录下的generator配置文件参考-->
+<generatorConfiguration>
+    <!-- <classPathEntry location="${mybatis.generator.classPath}"/>-->
+
+
+
+    <context id="mysql" targetRuntime="MyBatis3">
+
+
+
+        <!-- 自动识别数据库关键字，默认false，如果设置为true，根据SqlReservedWords中定义的关键字列表；
+        一般保留默认值，遇到数据库关键字（Java关键字），使用columnOverride覆盖-->
+        <property name="autoDelimitKeywords" value="false"/>
+
+        <!-- 生成的Java文件的编码 -->
+        <property name="javaFileEncoding" value="UTF-8"/>
+
+        <!-- 格式化java代码 -->
+        <property name="javaFormatter" value="org.mybatis.generator.api.dom.DefaultJavaFormatter"/>
+        <!-- 格式化XML代码 -->
+        <property name="xmlFormatter" value="org.mybatis.generator.api.dom.DefaultXmlFormatter"/>
+
+        <!-- beginningDelimiter和endingDelimiter：指明数据库的用于标记数据库对象名的符号，比如ORACLE就是双引号，MYSQL默认是`反引号； -->
+        <property name="beginningDelimiter" value="`"/>
+        <property name="endingDelimiter" value="`"/>
+
+        <!--去掉自动生成的注释-->
+        <!--type属性指定自定义的注释生成类-->
+        <commentGenerator >
+            <property name="suppressAllComments" value="true" />
+            <!--<property name="addRemarkComments" value="true" />-->
+            <!--<property name="suppressDate" value="true" />-->
+
+        </commentGenerator>
+
+        <jdbcConnection driverClass="com.mysql.jdbc.Driver"
+                        connectionURL="jdbc:mysql://localhost/info"
+                        userId="root"
+                        password="root">
+        </jdbcConnection>
+
+        <javaTypeResolver type="org.mybatis.generator.internal.types.JavaTypeResolverDefaultImpl">
+            <!--
+                true：使用BigDecimal对应DECIMAL和 NUMERIC数据类型
+                false：默认,
+                    scale>0;length>18：使用BigDecimal;
+                    scale=0;length[10,18]：使用Long；
+                    scale=0;length[5,9]：使用Integer；
+                    scale=0;length<5：使用Short；
+             -->
+            <property name="forceBigDecimals" value="true"/>
+        </javaTypeResolver>
+
+
+        <javaModelGenerator targetPackage="com.bdqnsh.student.model" targetProject="src/main/java">
+            <!--  自动为每一个生成的类创建一个构造方法，构造方法包含了所有的field；而不是使用setter；-->
+            <property name="constructorBased" value="false"/>
+
+            <!-- 是否创建一个不可变的类，如果为true，那么MBG会创建一个没有setter方法的类，取而代之的是类似constructorBased的类-->
+            <property name="immutable" value="false"/>
+
+            <!-- 在targetPackage的基础上，根据数据库的schema再生成一层package，最终生成的类放在这个package下，默认为false -->
+            <property name="enableSubPackages" value="false"/>
+
+
+            <!-- 设置一个根对象，
+                如果设置了这个根对象，那么生成的keyClass或者recordClass会继承这个类；在Table的rootClass属性中可以覆盖该选项
+                注意：如果在key class或者record class中有root class相同的属性，MBG就不会重新生成这些属性了，包括：
+                    1，属性名相同，类型相同，有相同的getter/setter方法；
+             -->
+            <!--<property name="rootClass" value=""/>-->
+
+            <!-- 设置是否在getter方法中，对String类型字段调用trim()方法 -->
+            <property name="trimStrings" value="false"/>
+
+        </javaModelGenerator>
+
+
+        <!--sql的mapper文件位置-->
+        <sqlMapGenerator targetPackage="mapper" targetProject="src/main/resources">
+            <!--同上-->
+            <property name="enableSubPackages" value="false"/>
+        </sqlMapGenerator>
+
+        <!--mapper接口位置-->
+        <javaClientGenerator type="XMLMAPPER" targetPackage="com.bdqnsh.student.dao"
+                             targetProject="src/main/java">
+            <!--同上-->
+            <property name="enableSubPackages" value="false"/>
+        </javaClientGenerator>
+
+        <!--<table tableName="student" domainObjectName="Student"
+               enableCountByExample="false" enableUpdateByExample="false"
+               enableDeleteByExample="false" enableSelectByExample="false"
+               selectByExampleQueryId="false">
+            <generatedKey column="id" sqlStatement="MySql" identity="true"/>
+        </table>-->
+        <table tableName="role" domainObjectName="Role"
+             enableCountByExample="false" enableUpdateByExample="false"
+             enableDeleteByExample="false" enableSelectByExample="false"
+             selectByExampleQueryId="false">
+          <generatedKey column="id" sqlStatement="MySql" identity="true"/>
+      </table>
+        <table tableName="admin" domainObjectName="Admin"
+               enableCountByExample="false" enableUpdateByExample="false"
+               enableDeleteByExample="false" enableSelectByExample="false"
+               selectByExampleQueryId="false">
+            <generatedKey column="id" sqlStatement="MySql" identity="true"/>
+        </table>
+
+    </context>
+</generatorConfiguration>

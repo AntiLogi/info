@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE log4j:configuration SYSTEM "log4j.dtd" >
+<log4j:configuration>
+    <appender name="Console" class="org.apache.log4j.ConsoleAppender">
+        <layout class="org.apache.log4j.PatternLayout">
+            <param name="ConversionPattern" value="%d{yy-MM-dd HH:mm:ss.SSS} %-5p [%c{1}] %m%n"/>
+        </layout>
+    </appender>
+
+    <appender name="File" class="org.apache.log4j.DailyRollingFileAppender">
+        <param name="file" value="/dev/resume-running.log" />
+        <!--<param name="file" value="D:/resume/resume-running.log" />-->
+        <param name="encoding" value="utf-8" />
+        <param name="append" value="false" />
+        <layout class="org.apache.log4j.PatternLayout">
+            <param name="ConversionPattern" value="%d{yy-MM-dd HH:mm:ss.SSS} %-5p [%c{1}] - %m%n" />
+        </layout>
+    </appender>
+
+    <root>
+        <priority value="INFO"/>
+        <appender-ref ref="Console"/>
+        <appender-ref ref="File"/>
+    </root>
+</log4j:configuration>
