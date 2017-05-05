@@ -116,19 +116,19 @@ public class ReadWord {
         try {
             String date;
             if ((date = list.get(1)) != null && !date.trim().equals(""))
-                student.setClassBegin(format.parse(date));
+               // student.setClassBegin(format.parse(date));
             if ((date = list.get(20)) != null && !date.trim().equals(""))
                 student.setBirthday(format.parse(date));
             if ((date = list.get(30)) != null && !date.trim().equals(""))
                 student.setFatherBirthday(format.parse(date));
-            if ((date = list.get(32)) != null && !date.trim().equals(""))
-                student.setMatherBirthday(format.parse(date));
+          /*  if ((date = list.get(32)) != null && !date.trim().equals(""))
+                student.setMatherBirthday(format.parse(date));*/
 
         } catch (ParseException e) {
             e.printStackTrace();
         }
-        student.setClassType(list.get(3).trim());
-        student.setClassTeacher(list.get(5).trim());
+      //  student.setClassType(list.get(3).trim());
+       // student.setClassTeacher(list.get(5).trim());
         BigDecimal bigDecimal = doRegex(list.get(6).trim(), REGEX_GET_COST);
         if (bigDecimal != null) {
             student.setPayment(bigDecimal);
