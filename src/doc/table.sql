@@ -222,7 +222,7 @@ comment on column student.payment is '缴费金额'
 comment on column student.compony is '单位名称'
 ;
 
-comment on column student.work_type is '工作种类   '
+comment on column student.work_type is '工作种类'
 ;
 
 comment on column student.off_job is '待业'
@@ -245,5 +245,4 @@ comment on column student.school is '毕业学校'
 
 comment on column student.employment_condition is '是否了解推荐就业条件'
 ;
-
 
