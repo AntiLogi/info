@@ -93,6 +93,7 @@
             <!--同上-->
             <property name="enableSubPackages" value="false"/>
         </javaClientGenerator>
+<!--
 
         <table tableName="student" domainObjectName="Student"
                enableCountByExample="false" enableUpdateByExample="false"
@@ -100,7 +101,7 @@
                selectByExampleQueryId="false">
             <generatedKey column="id" sqlStatement="MySql" identity="true"/>
         </table>
-      <!--  <table tableName="role" domainObjectName="Role"
+        <table tableName="role" domainObjectName="Role"
              enableCountByExample="false" enableUpdateByExample="false"
              enableDeleteByExample="false" enableSelectByExample="false"
              selectByExampleQueryId="false">
@@ -112,6 +113,30 @@
                selectByExampleQueryId="false">
             <generatedKey column="id" sqlStatement="MySql" identity="true"/>
         </table>
+        <table tableName="resource" domainObjectName="Resource"
+               enableCountByExample="false" enableUpdateByExample="false"
+               enableDeleteByExample="false" enableSelectByExample="false"
+               selectByExampleQueryId="false">
+            <generatedKey column="id" sqlStatement="MySql" identity="true"/>
+        </table>
+        <table tableName="role_resource" domainObjectName="RoleResource"
+               enableCountByExample="false" enableUpdateByExample="false"
+               enableDeleteByExample="false" enableSelectByExample="false"
+               selectByExampleQueryId="false">
+            <generatedKey column="id" sqlStatement="MySql" identity="true"/>
+        </table>
+        <table tableName="admin_role" domainObjectName="AdminRole"
+               enableCountByExample="false" enableUpdateByExample="false"
+               enableDeleteByExample="false" enableSelectByExample="false"
+               selectByExampleQueryId="false">
+            <generatedKey column="id" sqlStatement="MySql" identity="true"/>
+        </table>
 -->
+        <table tableName="student" domainObjectName="Student"
+               enableCountByExample="false" enableUpdateByExample="false"
+               enableDeleteByExample="false" enableSelectByExample="false"
+               selectByExampleQueryId="false">
+            <generatedKey column="id" sqlStatement="MySql" identity="true"/>
+        </table>
     </context>
 </generatorConfiguration>

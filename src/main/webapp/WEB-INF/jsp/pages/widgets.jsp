@@ -71,189 +71,300 @@
         <section class="content">
 
             <form id="infoForm">
-            <div class="box box-danger">
-                <div class="box-header with-border">
-                    <h3 class="box-title">Different Width</h3>
+                <input type="hidden" id="costSource" name="costSource">
+                <input type="hidden" id="languageSkill" name="languageSkill">
+                <input type="hidden" id="hobby" name="hobby">
+                <input type="hidden" id="computerBasis" name="computerBasis">
+                <input type="hidden" id="softBasis" name="softBasis">
+                <input type="hidden" id="computerOperate" name="computerOperate">
+                <input type="hidden" id="gender" name="gender">
+
+
+                <div class="box box-danger">
+                    <div class="box-header with-border">
+                        <h3 class="box-title">学员信息登记（学员自填）</h3>
+                    </div>
+                    <div class="box-body">
+
+
+                        <div class="row">
+                            <div class="col-xs-3">
+                                <input type="text" class="form-control" id="name" name="name" placeholder="姓名">
+                            </div>
+                            <div class="form-group">
+                                <%-- <label>出生日期:</label>--%>
+
+                                <div class="input-group date">
+                                    <div class="input-group-addon">
+                                        <i class="fa fa-calendar"></i>
+                                    </div>
+                                    <input type="text" name="birthday" placeholder="出生日期" class="form-control"
+                                           id="datepicker1"/>
+                                </div>
+                                <!-- /.input group -->
+                            </div>
+
+                            <div class="col-xs-3">
+                                <input type="text" class="form-control" id="religion" placeholder="宗教">
+                            </div>
+
+                            <div class="col-xs-3">
+                                <input type="text" class="form-control" id="bloodType" name="bloodType"
+                                       placeholder="血型">
+                            </div>
+                            <div class="col-xs-3">
+                                <input type="text" class="form-control" name="constellation"
+                                       placeholder="星座">
+                            </div>
+                        </div>
+                        <br/>
+                        <div class="row">
+
+                            <div class="col-xs-3">
+                                <input type="text" class="form-control" id="post_code" name="postCode" placeholder="邮编">
+                            </div>
+                            <div class="col-xs-3">
+                                <input type="text" class="form-control" id="telephone" name="telephone"
+                                       placeholder="家庭电话">
+                            </div>
+                            <div class="col-xs-3">
+                                <input type="text" class="form-control " name="mobile" placeholder="手机">
+                            </div>
+                        </div>
+                        <br/>
+                        <div class="row">
+                            <div class="col-xs-3">
+                                <input type="text" class="form-control" name="ancestralHome" placeholder="籍贯">
+                            </div>
+
+                            <div class="col-xs-3">
+                                <input type="text" class="form-control" name="address" placeholder="现居住地地">
+                            </div>
+                            <div class="col-xs-3">
+                                <input type="text" class="form-control" name="vehicle" placeholder="交通工具">
+                            </div>
+                        </div>
+                        <br/>
+                        <div class="row">
+                            <!-- Date -->
+                            <%--   <div class="form-group">
+                                   <label>出生日期:</label>
+
+                                   <div class="input-group date">
+                                       <div class="input-group-addon">
+                                           <i class="fa fa-calendar"></i>
+                                       </div>
+                                       <input type="text" name="birthday" class="form-control" id="datepicker1"/>
+                                   </div>
+                                   <!-- /.input group -->
+                               </div>--%>
+                            <div class="form-group">
+                                <div class="col-xs-3">
+                                    <input type="text" class="form-control" name="fatherName" placeholder="父亲名字">
+                                </div>
+                                <%--<label>父亲生日:</label>--%>
+
+                                <div class="input-group date">
+                                    <div class="input-group-addon">
+                                        <i class="fa fa-calendar"></i>
+                                    </div>
+                                    <input type="text" name="fatherBirthday" placeholder="父亲生日" class="form-control "
+                                           id="datepicker2"/>
+                                </div>
+                                <!-- /.input group -->
+                            </div>
+                            <div class="form-group">
+                                <div class="col-xs-3">
+                                    <input type="text" class="form-control" name="motherName" placeholder="母亲名字">
+                                </div>
+
+                                <div class="input-group date">
+                                    <div class="input-group-addon">
+                                        <i class="fa fa-calendar"></i>
+                                    </div>
+                                    <input type="text" name="motherBirthday" class="form-control " placeholder="母亲生日"
+                                           id="datepicker3"/>
+                                </div>
+                                <!-- /.input group -->
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-xs-3">
+                                <input type="text" class="form-control" name="qq" placeholder="qq">
+                            </div>
+
+                            <div class="col-xs-3">
+                                <input type="text" class="form-control" name="wechat" placeholder="微信">
+                            </div>
+                            <div class="col-xs-3">
+                                <input type="text" class="form-control" name="email" placeholder="email">
+                            </div>
+                        </div>
+                        <br/>
+                        <div class="row">
+                            <div class="col-xs-3">
+                                <input type="text" class="form-control" name="infoSource" placeholder="报名信息来源">
+                            </div>
+                            <div class="col-xs-3">
+                                <input type="text" class="form-control" name="emergencyContact" placeholder="应急联系人">
+                            </div>
+
+                            <div class="col-xs-3">
+                                <input type="text" class="form-control" name="emergencyContactPhone"
+                                       placeholder="应急联系电话">
+                            </div>
+
+                        </div>
+                        <br/>
+                        <div class="row">
+                            <div class="col-xs-3">
+                                <input type="text" class="form-control " name="highestDegree" placeholder="学历">
+                            </div>
+                            <div class="col-xs-3">
+                                <input type="text" class="form-control" name="major" placeholder="专业">
+                            </div>
+                            <div class="col-xs-3">
+                                <input type="text" class="form-control" name="school" placeholder="毕业院校">
+                            </div>
+                        </div><br/>
+                        <div class="row">
+                            <div class="col-xs-3">
+                                <input type="text" class="form-control " name="identityCard" placeholder="身份证">
+                            </div>
+
+                        </div>
+
+                        <div class="box box-default">
+                            <div class="box-header with-border">
+                                <h3 class="box-title">选择项</h3>
+
+                                <div class="box-tools pull-right">
+                                    <button type="button" class="btn btn-box-tool" data-widget="collapse"><i
+                                            class="fa fa-minus"></i></button>
+                                    <button type="button" class="btn btn-box-tool" data-widget="remove"><i
+                                            class="fa fa-remove"></i></button>
+                                </div>
+                            </div>
+                            <!-- /.box-header -->
+                            <div class="box-body">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <label>费用来源</label>
+                                            <select class="form-control select2" id="costSelect"
+
+                                                    style="width: 100%;">
+                                                <option selected="selected">家人支持</option>
+                                                <option>自费</option>
+                                                <option>公费</option>
+                                                <option>其他</option>
+                                            </select>
+                                        </div>
+                                        <!-- /.form-group -->
+                                        <div class="form-group">
+                                            <label>计算机基础</label>
+                                            <select class="form-control select2" id="computer"
+
+                                                    style="width: 100%;">
+                                                <option selected="selected">一般</option>
+                                                <option>不了解</option>
+                                                <option>熟悉</option>
+                                            </select>
+                                        </div>
+                                        <!-- /.form-group -->
+                                    </div>
+
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <div class="form-group">
+                                                <label>软件操作</label>
+                                                <select class="form-control select2" id="soft"
+
+                                                        style="width: 100%;">
+                                                    <option selected="selected">一般</option>
+                                                    <option>不了解</option>
+                                                    <option>熟悉</option>
+                                                </select>
+                                            </div>
+                                            <!-- /.form-group -->
+                                            <div class="form-group">
+                                                <label>上网操作</label>
+                                                <select class="form-control select2" id="operator"
+
+                                                        style="width: 100%;">
+                                                    <option selected="selected">一般</option>
+                                                    <option>不了解</option>
+                                                    <option>熟悉</option>
+                                                </select>
+                                            </div>
+                                            <!-- /.form-group -->
+
+                                        </div>
+                                        <!-- /.col -->
+                                        <div class="col-md-6">
+                                            <div class="form-group">
+                                                <label>语言能力</label>
+                                                <select class="form-control select2"
+                                                        id="languageSelect" multiple="multiple"
+                                                        data-placeholder="Select a State" style="width: 100%;">
+                                                    <option>英语</option>
+                                                    <option>日语</option>
+                                                    <option>德语</option>
+                                                    <option>韩语</option>
+                                                    <option>法语</option>
+                                                    <option>俄语</option>
+                                                    <option>其他</option>
+                                                </select>
+                                            </div>
+                                            <!-- /.form-group -->
+                                            <div class="form-group">
+                                                <label>爱好</label>
+                                                <select class="form-control select2"
+                                                        id="hobbySelect" multiple="multiple"
+                                                        data-placeholder="Select a State" style="width: 100%;">
+                                                    <option>上网</option>
+                                                    <option>游戏</option>
+                                                    <option>影视</option>
+                                                    <option>动漫</option>
+                                                    <option>篮球</option>
+                                                    <option>足球</option>
+                                                    <option>阅读</option>
+                                                    <option>其他</option>
+                                                </select>
+                                            </div>
+                                            <!-- /.form-group -->
+                                        </div>
+                                        <!-- /.col -->
+                                        <div class="col-md-6">
+                                            <div class="form-group">
+                                                <label>性别</label>
+                                                <select class="form-control select2" id="gender12"
+
+                                                        style="width: 100%;">
+                                                    <option selected="selected">男</option>
+                                                    <option>女</option>
+
+                                                </select>
+                                            </div>
+
+                                            <!-- /.form-group -->
+                                        </div>
+                                    </div>
+                                    <!-- /.row -->
+                                </div>
+                                <!-- /.box-body -->
+
+                            </div>
+
+
+                        </div>
+                    </div>
+
+                    <!-- /.box-body -->
                 </div>
-                <div class="box-body">
-                    <div class="row">
-                    <div class="col-xs-3">
-                        <input type="text" class="form-control" id="name" name="name" placeholder="姓名">
-                    </div>
-                    <div class="col-xs-3">
-                        <input type="text" class="form-control" id="gender" name="gender" placeholder="性别">
-                    </div>
-                    <div class="col-xs-3">
-                        <input type="text" class="form-control" id="bloodType" name="bloodType" placeholder="血型">
-                    </div>
-                </div>
-                    <div class="row">
-                        <div class="col-xs-3">
-                            <input type="text" class="form-control" id="constellation" name="constellation" placeholder="星座">
-                        </div>
-                        <div class="col-xs-3">
-                            <input type="text" class="form-control" id="belief" name="belief" placeholder="信仰">
-                        </div>
-                        <div class="col-xs-3">
-                            <input type="text" class="form-control" id="telephone" name="telephone" placeholder="家庭电话">
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-xs-3">
-                            <input type="text" class="form-control " id="mobile" name="mobile" placeholder="手机">
-                        </div>
-                        <div class="col-xs-3">
-                            <input type="text" class="form-control" name="address" placeholder="现居住地地">
-                        </div>
-                        <div class="col-xs-3">
-                            <input type="text" class="form-control" name="vehicle" placeholder="交通工具">
-                        </div>
-                    </div>
-                    <div class="row">
-                        <!-- Date -->
-                        <div class="form-group">
-                            <label>出生日期:</label>
-
-                            <div class="input-group date">
-                                <div class="input-group-addon">
-                                    <i class="fa fa-calendar"></i>
-                                </div>
-                                <input type="text" name="birthday"  class="form-control" id="datepicker1"/>
-                            </div>
-                            <!-- /.input group -->
-                        </div>
-                        <div class="form-group">
-                            <label>父亲生日:</label>
-
-                            <div class="input-group date">
-                                <div class="input-group-addon">
-                                    <i class="fa fa-calendar"></i>
-                                </div>
-                                <input type="text" name="fatherBirthday" class="form-control " id="datepicker2"/>
-                            </div>
-                            <!-- /.input group -->
-                        </div>
-                        <div class="form-group">
-                            <label>母亲出生:</label>
-
-                            <div class="input-group date">
-                                <div class="input-group-addon">
-                                    <i class="fa fa-calendar"></i>
-                                </div>
-                                <input type="text" name="motherBirthday" class="form-control " id="datepicker3"/>
-                            </div>
-                            <!-- /.input group -->
-                        </div>
-                        <div class="form-group">
-                            <label>入校日期:</label>
-
-                            <div class="input-group date">
-                                <div class="input-group-addon">
-                                    <i class="fa fa-calendar"></i>
-                                </div>
-                                <input type="text" name="enrollment"  class="form-control " id="datepicker4"/>
-                            </div>
-                            <!-- /.input group -->
-                        </div>
-                    </div>
-
-
-                    <div class="box box-default">
-                        <div class="box-header with-border">
-                            <h3 class="box-title">选择项</h3>
-
-                            <div class="box-tools pull-right">
-                                <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i></button>
-                                <button type="button" class="btn btn-box-tool" data-widget="remove"><i class="fa fa-remove"></i></button>
-                            </div>
-                        </div>
-                        <!-- /.box-header -->
-                        <div class="box-body">
-                            <div class="row">
-                                <div class="col-md-6">
-                                    <div class="form-group">
-                                        <label>费用来源</label>
-                                        <select class="form-control select2" name="costSource"  id="costSource" style="width: 100%;">
-                                            <option selected="selected">家人支持</option>
-                                            <option>自费</option>
-                                            <option>公费</option>
-                                            <option>其他</option>
-                                        </select>
-                                    </div>
-                                    <!-- /.form-group -->
-                                    <div class="form-group">
-                                        <label>学习期望</label>
-                                        <select class="form-control select2" multiple="multiple"   data-placeholder="Select a State" style="width: 100%;">
-                                            <option>就业</option>
-                                            <option>充电</option>
-                                            <option>家人要求</option>
-                                            <option>增加就业实力</option>
-                                            <option>个人兴趣</option>
-                                            <option>Texas</option>
-                                            <option>Washington</option>
-                                        </select>
-                                    </div>
-                                    <!-- /.form-group -->
-                                </div>
-                                <!-- /.col -->
-                                <div class="col-md-6">
-                                    <div class="form-group">
-                                        <label>语言能力</label>
-                                        <select class="form-control select2"   multiple="multiple" data-placeholder="Select a State" style="width: 100%;">
-                                            <option>英语</option>
-                                            <option>日语</option>
-                                            <option>德语</option>
-                                            <option>韩语</option>
-                                            <option>法语</option>
-                                            <option>俄语</option>
-                                            <option>其他</option>
-                                        </select>
-                                    </div>
-                                    <!-- /.form-group -->
-                                    <div class="form-group">
-                                        <label>爱好</label>
-                                        <select class="form-control select2"   multiple="multiple" data-placeholder="Select a State" style="width: 100%;">
-                                            <option >上网</option>
-                                            <option>游戏</option>
-                                            <option >影视</option>
-                                            <option>动漫</option>
-                                            <option>篮球</option>
-                                            <option>足球</option>
-                                            <option>阅读</option>
-                                            <option>其他</option>
-                                        </select>
-                                    </div>
-                                    <!-- /.form-group -->
-                                </div>
-                                <!-- /.col -->
-                            </div>
-                            <!-- /.row -->
-                        </div>
-                        <!-- /.box-body -->
-
-                    </div>
-
-
-                    <div class="row">
-                        <div class="col-xs-3">
-                            <input type="text" class="form-control "   placeholder="学历">
-                        </div>
-                        <div class="col-xs-3">
-                            <input type="text" class="form-control"   placeholder="专业">
-                        </div>
-                        <div class="col-xs-3">
-                            <input type="text" class="form-control"   placeholder="毕业院校">
-                        </div>
-                    </div>
-
-                </div>
-
-                <!-- /.box-body -->
-            </div>
 
                 <input type="button" onclick="commit()" value="提交">
             </form>
-
 
 
         </section>
@@ -580,16 +691,34 @@
             showInputs: false
         });
     });
-    
 
-    
-    
+
 </script>
 <script>
+
+
     function commit() {
-        alert("???");
-        $.post("<c:url value="/student/primary.html"/>",$("#infoForm").serialize(),function (data) {
-            alert("sucess");
+        $("#costSource").val($("#costSelect").val());
+        $("#languageSkill").val($("#languageSelect").val());
+        $("#hobby").val($("#hobbySelect").val());
+        $("#computerBasis").val($("#computer").val());
+        $("#softBasis").val($("#soft").val());
+        $("#computerOperate").val($("#operator").val());
+
+        var gender = $("#gender12").val();
+
+        if (gender == "男") {
+            $("#gender").val(1);
+        } else {
+            $("#gender").val(0);
+        }
+
+
+
+
+
+        $.post("<c:url value="/student/primary.html"/>", $("#infoForm").serialize(), function (data) {
+            alert("success");
         })
     }
 </script>

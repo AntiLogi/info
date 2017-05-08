@@ -139,7 +139,7 @@ public class ReadWord {
         }
         student.setBloodType(list.get(23).trim());
         student.setConstellation(list.get(25).trim());
-        student.setBelief(list.get(27).trim());
+        student.setReligion(list.get(27).trim());
         student.setTelephone(list.get(35).trim());
         student.setMobile(list.get(37).trim());
         student.setInfoSource(list.get(40).trim());
@@ -153,11 +153,6 @@ public class ReadWord {
         student.setVehicle(list.get(58).trim());
         student.setAddress(list.get(60).trim());
         student.setPostCode(list.get(62).trim());
-        student.setHasPc(list.get(64).trim());
-        student.setLearningTime(list.get(68).trim());
-        student.setFamilySupport(list.get(70).trim());
-        student.setMentalPreparation(list.get(72).trim());
-        student.setRemark(list.get(74).trim());
         student.setHighestDegree(list.get(76).trim());
         student.setMajor(list.get(78).trim());
         student.setSchool(list.get(80).trim());
@@ -207,8 +202,7 @@ public class ReadWord {
                 }
             }
         }
-        if (buffer.length()>0)
-        student.setEmploymentCondition(buffer.toString().substring(0, buffer.length() - 1));
+
 
         buffer = new StringBuffer();
         for (int i = 137; i <= 140; i++) {
@@ -249,7 +243,7 @@ public class ReadWord {
 
         student.setCreateTime(new Date());
         student.setDelState(false);
-        student.setCreateName("张三");
+
 
         studentMapper.insert(student);
 
