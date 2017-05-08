@@ -21,10 +21,11 @@ public class StudentService {
         return studentMapper.selectByNameAndMobile(name, mobile);
     }
 
-    public void createStudent(Student student,Long adminId) {
+    public int createStudent(Student student,Long adminId) {
         student.setCreateId(adminId);
         student.setCreateTime(new Date());
         student.setProcess(1);
+       return studentMapper.insertSelective(student);
     }
 
 }

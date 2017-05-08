@@ -317,14 +317,25 @@
                     <li><a href="<c:url value="/WEB-INF/jsp/pages/layout/collapsed-sidebar.html"/>"><i class="fa fa-circle-o"></i> Collapsed Sidebar</a></li>
                 </ul>
             </li>
-            <li>
-                <a href="<c:url value="/student/index.html"/>">
-                    <i class="fa fa-th"></i> <span>学员录入</span>
+
+
+            <li class="treeview">
+                <a href="#">
+                    <i class="fa fa-pie-chart"></i>
+                    <span>学员录入</span>
                     <span class="pull-right-container">
-              <small class="label pull-right bg-green">new</small>
+              <i class="fa fa-angle-left pull-right"></i>
             </span>
                 </a>
+                <ul class="treeview-menu">
+                    <li><a href="<c:url value="/student/index.html"/>"><i class="fa fa-circle-o"></i>学员开档</a></li>
+
+                </ul>
             </li>
+
+
+
+
             <li class="treeview">
                 <a href="#">
                     <i class="fa fa-pie-chart"></i>

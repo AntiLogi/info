@@ -59,7 +59,7 @@
         <section class="content-header">
             <h1>
                 学员录入
-                <small>学员录入</small>
+                <small>学员开档</small>
             </h1>
             <ol class="breadcrumb">
                 <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
@@ -105,7 +105,7 @@
                             </div>
 
                             <div class="col-xs-3">
-                                <input type="text" class="form-control" id="religion" placeholder="宗教">
+                                <input type="text" class="form-control" name="religion" placeholder="宗教">
                             </div>
 
                             <div class="col-xs-3">
@@ -232,7 +232,7 @@
                                 <input type="text" class="form-control " name="identityCard" placeholder="身份证">
                             </div>
 
-                        </div>
+                        </div><br/>
 
                         <div class="box box-default">
                             <div class="box-header with-border">
@@ -718,7 +718,11 @@
 
 
         $.post("<c:url value="/student/primary.html"/>", $("#infoForm").serialize(), function (data) {
-            alert("success");
+            if (data=="0"){
+                alert("学员已存在，请重新确认");
+            }else {
+                alert("成功添加。");
+            }
         })
     }
 </script>

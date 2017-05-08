@@ -40,10 +40,10 @@ public class StudentController {
             result = 1;
             return result;
         }
-        studentService.createStudent(student, admin.getId());
+       result= studentService.createStudent(student, admin.getId());
 
 
-        return 0;
+        return result;
     }
 
 }

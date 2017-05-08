@@ -1,6 +1,7 @@
 package com.bdqnsh.student.dao;
 
 import com.bdqnsh.student.model.Student;
+import org.apache.ibatis.annotations.Param;
 import org.springframework.stereotype.Repository;
 
 @Repository
@@ -54,5 +55,5 @@ public interface StudentMapper {
     int updateByPrimaryKey(Student record);
 
 
-    Student selectByNameAndMobile(String name,String mobile);
+    Student selectByNameAndMobile(@Param("name") String name, @Param("mobile") String mobile);
 }
