@@ -329,6 +329,7 @@
                 </a>
                 <ul class="treeview-menu">
                     <li><a href="<c:url value="/student/index.html"/>"><i class="fa fa-circle-o"></i>学员开档</a></li>
+                    <li><a href="<c:url value="/student/second.html"/>"><i class="fa fa-circle-o"></i>学员二次填写</a></li>
 
                 </ul>
             </li>
@@ -390,7 +391,7 @@
                 </a>
                 <ul class="treeview-menu">
                     <li><a href="<c:url value="/WEB-INF/jsp/pages/tables/simple.html"/>"><i class="fa fa-circle-o"></i> Simple tables</a></li>
-                    <li><a href="<c:url value="/WEB-INF/jsp/pages/tables/data.html"/>"><i class="fa fa-circle-o"></i> Data tables</a></li>
+                    <li><a href="<c:url value="/student/toStudentList.html"/>"><i class="fa fa-circle-o"></i>学员列表</a></li>
                 </ul>
             </li>
             <li>

@@ -3,6 +3,8 @@ package com.bdqnsh.student.dao;
 import com.bdqnsh.student.model.Admin;
 import org.springframework.stereotype.Repository;
 
+import java.util.List;
+
 @Repository
 public interface AdminMapper {
     /**
@@ -54,4 +56,6 @@ public interface AdminMapper {
     int updateByPrimaryKey(Admin record);
 
     Admin selectByUserName(String userName);
+
+    List<Admin> getAdminsByRoleId(Long roleId);
 }

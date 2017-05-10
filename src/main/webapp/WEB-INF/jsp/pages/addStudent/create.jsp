@@ -47,7 +47,7 @@
     <![endif]-->
 
 
-    <jsp:include page="topAndLeft.jsp"/>
+    <jsp:include page="../topAndLeft.jsp"/>
 </head>
 <body class="hold-transition skin-blue sidebar-mini">
 <div class="wrapper">
@@ -201,7 +201,7 @@
                             </div>
                         </div>
                         <br/>
-                        <div class="row">
+                        <div class="row" id="test">
                             <div class="col-xs-3">
                                 <input type="text" class="form-control" name="infoSource" placeholder="报名信息来源">
                             </div>
@@ -233,6 +233,55 @@
                             </div>
 
                         </div><br/>
+                        <label>工作履历</label>
+                        <div class="row">
+
+                            <div class="col-xs-3">
+                                <input type="text" class="form-control " name="company1" placeholder="单位">
+                            </div>
+                            <div class="col-xs-3">
+                                <input type="text" class="form-control " name="workDate1" placeholder="年份">
+                            </div>
+                            <div class="col-xs-3">
+                                <input type="text" class="form-control " name="position1" placeholder="职位">
+                            </div>
+                            <div class="col-xs-3">
+                                <input type="text" class="form-control " name="workContent1" placeholder="描述">
+                            </div>
+
+                        </div><br/>
+                        <div class="row">
+
+                            <div class="col-xs-3">
+                                <input type="text" class="form-control " name="company2" placeholder="单位">
+                            </div>
+                            <div class="col-xs-3">
+                                <input type="text" class="form-control " name="workDate2" placeholder="年份">
+                            </div>
+                            <div class="col-xs-3">
+                                <input type="text" class="form-control " name="position2" placeholder="职位">
+                            </div>
+                            <div class="col-xs-3">
+                                <input type="text" class="form-control " name="workContent2" placeholder="描述">
+                            </div>
+
+                        </div><br/>
+                        <div class="row">
+
+                            <div class="col-xs-3">
+                                <input type="text" class="form-control " name="company3" placeholder="单位">
+                            </div>
+                            <div class="col-xs-3">
+                                <input type="text" class="form-control " name="workDate3" placeholder="年份">
+                            </div>
+                            <div class="col-xs-3">
+                                <input type="text" class="form-control " name="position3" placeholder="职位">
+                            </div>
+                            <div class="col-xs-3">
+                                <input type="text" class="form-control " name="workContent3" placeholder="描述">
+                            </div>
+
+                        </div><br/>
 
                         <div class="box box-default">
                             <div class="box-header with-border">
@@ -252,7 +301,6 @@
                                         <div class="form-group">
                                             <label>费用来源</label>
                                             <select class="form-control select2" id="costSelect"
-
                                                     style="width: 100%;">
                                                 <option selected="selected">家人支持</option>
                                                 <option>自费</option>
@@ -290,7 +338,6 @@
                                             <div class="form-group">
                                                 <label>上网操作</label>
                                                 <select class="form-control select2" id="operator"
-
                                                         style="width: 100%;">
                                                     <option selected="selected">一般</option>
                                                     <option>不了解</option>
@@ -339,11 +386,9 @@
                                             <div class="form-group">
                                                 <label>性别</label>
                                                 <select class="form-control select2" id="gender12"
-
                                                         style="width: 100%;">
                                                     <option selected="selected">男</option>
                                                     <option>女</option>
-
                                                 </select>
                                             </div>
 
@@ -695,7 +740,6 @@
 
 </script>
 <script>
-
 
     function commit() {
         $("#costSource").val($("#costSelect").val());

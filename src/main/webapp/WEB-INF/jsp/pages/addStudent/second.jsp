@@ -47,7 +47,7 @@
     <![endif]-->
 
 
-    <jsp:include page="topAndLeft.jsp"/>
+    <jsp:include page="../topAndLeft.jsp"/>
 </head>
 <body class="hold-transition skin-blue sidebar-mini">
 <div class="wrapper">
@@ -59,7 +59,7 @@
         <section class="content-header">
             <h1>
                 学员录入
-                <small>学员开档</small>
+                <small>学员个人信息完善</small>
             </h1>
             <ol class="breadcrumb">
                 <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
@@ -71,123 +71,98 @@
         <section class="content">
 
             <form id="infoForm">
-                <input type="hidden" id="costSource" name="costSource">
-                <input type="hidden" id="languageSkill" name="languageSkill">
-                <input type="hidden" id="hobby" name="hobby">
-                <input type="hidden" id="computerBasis" name="computerBasis">
-                <input type="hidden" id="softBasis" name="softBasis">
-                <input type="hidden" id="computerOperate" name="computerOperate">
-                <input type="hidden" id="gender" name="gender">
+                <input type="hidden" id="teacherId" name="teacherId">
+
 
 
                 <div class="box box-danger">
                     <div class="box-header with-border">
-                        <h3 class="box-title">学员信息登记（学员自填）</h3>
+                        <h3 class="box-title">学员信息完善（学员自填）</h3>
                     </div>
                     <div class="box-body">
 
 
                         <div class="row">
                             <div class="col-xs-3">
-                                <input type="text" class="form-control" id="name" name="name" placeholder="姓名">
+                                <input type="text" class="form-control" id="club" name="club" placeholder="所属社团">
                             </div>
-                            <div class="form-group">
-                                <%-- <label>出生日期:</label>--%>
 
-                                <div class="input-group date">
-                                    <div class="input-group-addon">
-                                        <i class="fa fa-calendar"></i>
-                                    </div>
-                                    <input type="text" name="birthday" placeholder="出生日期" class="form-control"
-                                           id="datepicker1"/>
-                                </div>
-                                <!-- /.input group -->
+
+                            <div class="col-xs-3">
+                                <input type="text" class="form-control" name="idol" placeholder="偶像">
                             </div>
 
                             <div class="col-xs-3">
-                                <input type="text" class="form-control" name="religion" placeholder="宗教">
-                            </div>
-
-                            <div class="col-xs-3">
-                                <input type="text" class="form-control" id="bloodType" name="bloodType"
-                                       placeholder="血型">
+                                <input type="text" class="form-control" id="bloodType" name="idea"
+                                       placeholder="理想">
                             </div>
                             <div class="col-xs-3">
-                                <input type="text" class="form-control" name="constellation"
-                                       placeholder="星座">
+                                <input type="text" class="form-control" name="activity"
+                                       placeholder="希望参加的校友活动">
                             </div>
                         </div>
                         <br/>
                         <div class="row">
 
                             <div class="col-xs-3">
-                                <input type="text" class="form-control" id="post_code" name="postCode" placeholder="邮编">
+                                <input type="text" class="form-control" id="post_code" name="technology" placeholder="最关心的技术趋势">
                             </div>
                             <div class="col-xs-3">
-                                <input type="text" class="form-control" id="telephone" name="telephone"
-                                       placeholder="家庭电话">
+                                <input type="text" class="form-control" id="telephone" name="mateType"
+                                       placeholder="希望的配偶类型">
+                            </div>
+
+                        </div>
+                        <br/>
+                        <label>培训经历</label>
+                        <div class="row">
+                            <div class="col-xs-3">
+                                <input type="text" class="form-control" name="trainingCompany1" placeholder="单位">
+                            </div>
+
+                            <div class="col-xs-3">
+                                <input type="text" class="form-control" name="trainingDate1" placeholder="年份">
                             </div>
                             <div class="col-xs-3">
-                                <input type="text" class="form-control " name="mobile" placeholder="手机">
+                                <input type="text" class="form-control" name="trainingIndustry1" placeholder="行业">
+                            </div>
+                            <div class="col-xs-3">
+                                <input type="text" class="form-control" name="trainingContent1" placeholder="培训内容">
                             </div>
                         </div>
                         <br/>
                         <div class="row">
                             <div class="col-xs-3">
-                                <input type="text" class="form-control" name="ancestralHome" placeholder="籍贯">
+                                <input type="text" class="form-control" name="trainingCompany2" placeholder="单位">
                             </div>
 
                             <div class="col-xs-3">
-                                <input type="text" class="form-control" name="address" placeholder="现居住地地">
+                                <input type="text" class="form-control" name="trainingDate2" placeholder="年份">
                             </div>
                             <div class="col-xs-3">
-                                <input type="text" class="form-control" name="vehicle" placeholder="交通工具">
+                                <input type="text" class="form-control" name="trainingIndustry2" placeholder="行业">
+                            </div>
+                            <div class="col-xs-3">
+                                <input type="text" class="form-control" name="trainingContent2" placeholder="培训内容">
                             </div>
                         </div>
                         <br/>
                         <div class="row">
-                            <!-- Date -->
-                            <%--   <div class="form-group">
-                                   <label>出生日期:</label>
-
-                                   <div class="input-group date">
-                                       <div class="input-group-addon">
-                                           <i class="fa fa-calendar"></i>
-                                       </div>
-                                       <input type="text" name="birthday" class="form-control" id="datepicker1"/>
-                                   </div>
-                                   <!-- /.input group -->
-                               </div>--%>
-                            <div class="form-group">
-                                <div class="col-xs-3">
-                                    <input type="text" class="form-control" name="fatherName" placeholder="父亲名字">
-                                </div>
-                                <%--<label>父亲生日:</label>--%>
-
-                                <div class="input-group date">
-                                    <div class="input-group-addon">
-                                        <i class="fa fa-calendar"></i>
-                                    </div>
-                                    <input type="text" name="fatherBirthday" placeholder="父亲生日" class="form-control "
-                                           id="datepicker2"/>
-                                </div>
-                                <!-- /.input group -->
+                            <div class="col-xs-3">
+                                <input type="text" class="form-control" name="trainingCompany3" placeholder="单位">
                             </div>
-                            <div class="form-group">
-                                <div class="col-xs-3">
-                                    <input type="text" class="form-control" name="motherName" placeholder="母亲名字">
-                                </div>
 
-                                <div class="input-group date">
-                                    <div class="input-group-addon">
-                                        <i class="fa fa-calendar"></i>
-                                    </div>
-                                    <input type="text" name="motherBirthday" class="form-control " placeholder="母亲生日"
-                                           id="datepicker3"/>
-                                </div>
-                                <!-- /.input group -->
+                            <div class="col-xs-3">
+                                <input type="text" class="form-control" name="trainingDate3" placeholder="年份">
+                            </div>
+                            <div class="col-xs-3">
+                                <input type="text" class="form-control" name="trainingIndustry3" placeholder="行业">
+                            </div>
+                            <div class="col-xs-3">
+                                <input type="text" class="form-control" name="trainingContent3" placeholder="培训内容">
                             </div>
                         </div>
+                        <br/>
                         <div class="row">
                             <div class="col-xs-3">
                                 <input type="text" class="form-control" name="qq" placeholder="qq">
@@ -201,20 +176,7 @@
                             </div>
                         </div>
                         <br/>
-                        <div class="row">
-                            <div class="col-xs-3">
-                                <input type="text" class="form-control" name="infoSource" placeholder="报名信息来源">
-                            </div>
-                            <div class="col-xs-3">
-                                <input type="text" class="form-control" name="emergencyContact" placeholder="应急联系人">
-                            </div>
 
-                            <div class="col-xs-3">
-                                <input type="text" class="form-control" name="emergencyContactPhone"
-                                       placeholder="应急联系电话">
-                            </div>
-
-                        </div>
                         <br/>
                         <div class="row">
                             <div class="col-xs-3">
@@ -250,14 +212,15 @@
                                 <div class="row">
                                     <div class="col-md-6">
                                         <div class="form-group">
-                                            <label>费用来源</label>
+                                            <label>带班老师</label>
                                             <select class="form-control select2" id="costSelect"
-
+                                                    onchange="teacher(this)"
                                                     style="width: 100%;">
-                                                <option selected="selected">家人支持</option>
-                                                <option>自费</option>
-                                                <option>公费</option>
-                                                <option>其他</option>
+                                                <option value="" >请选择带班老师</option>
+                                                <c:forEach items="${teachers}" var="data">
+                                                    <option value="${data.id}">${data.nickName}</option>
+                                                </c:forEach>
+
                                             </select>
                                         </div>
                                         <!-- /.form-group -->
@@ -290,7 +253,6 @@
                                             <div class="form-group">
                                                 <label>上网操作</label>
                                                 <select class="form-control select2" id="operator"
-
                                                         style="width: 100%;">
                                                     <option selected="selected">一般</option>
                                                     <option>不了解</option>
@@ -339,11 +301,9 @@
                                             <div class="form-group">
                                                 <label>性别</label>
                                                 <select class="form-control select2" id="gender12"
-
                                                         style="width: 100%;">
                                                     <option selected="selected">男</option>
                                                     <option>女</option>
-
                                                 </select>
                                             </div>
 
@@ -696,6 +656,11 @@
 </script>
 <script>
 
+    function teacher(obj) {
+       var s =  $(obj).val();
+       $("#teacherId").val(s);
+
+    }
 
     function commit() {
         $("#costSource").val($("#costSelect").val());

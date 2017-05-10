@@ -220,4 +220,23 @@
     WHERE user_name = #{userName}
     AND  del_state = 0
   </select>
+
+  <select id="getAdminsByRoleId" resultMap="BaseResultMap">
+    SELECT
+    a.id as id,
+    a.user_name as userName,
+    a.password as password,
+    a.nick_name as nickName,
+    a.last_login_time as lastLoginTime,
+    a.create_id as createId,
+    a.create_time as createTime,
+    a.update_id as updateId,
+    a.update_time as updateTime,
+    a.del_state as delState,
+    a.email as  email,
+    a.mobile as mobile
+    from admin a JOIN admin_role ar ON
+    a.id = ar.admin_id and ar.role_id = #{roleId}
+    AND a.del_state = 0 AND  ar.del_state = 0
+  </select>
 </mapper>

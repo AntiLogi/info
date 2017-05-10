@@ -4,6 +4,8 @@ import com.bdqnsh.student.model.Student;
 import org.apache.ibatis.annotations.Param;
 import org.springframework.stereotype.Repository;
 
+import java.util.List;
+
 @Repository
 public interface StudentMapper {
     /**
@@ -56,4 +58,6 @@ public interface StudentMapper {
 
 
     Student selectByNameAndMobile(@Param("name") String name, @Param("mobile") String mobile);
+
+    List<Student> selectStudentByProcess(int process);
 }

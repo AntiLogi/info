@@ -362,7 +362,7 @@
           </ul>
         </li>
         <li>
-          <a href="<c:url value="/WEB-INF/jsp/pages/widgets.jsp"/>">
+          <a href="<c:url value="/WEB-INF/jsp/pages/create.jsp"/>">
             <i class="fa fa-th"></i> <span>Widgets</span>
             <span class="pull-right-container">
               <small class="label pull-right bg-green">new</small>
@@ -423,7 +423,7 @@
           </a>
           <ul class="treeview-menu">
             <li><a href="<c:url value="/WEB-INF/jsp/pages/tables/simple.html"/>"><i class="fa fa-circle-o"></i> Simple tables</a></li>
-            <li><a href="<c:url value="/WEB-INF/jsp/pages/tables/data.html"/>"><i class="fa fa-circle-o"></i> Data tables</a></li>
+            <li><a href="<c:url value="/WEB-INF/jsp/pages/tables/studentList.jsp"/>"><i class="fa fa-circle-o"></i> Data tables</a></li>
           </ul>
         </li>
         <li>
@@ -454,7 +454,7 @@
           </a>
           <ul class="treeview-menu">
             <li><a href="<c:url value="/WEB-INF/jsp/pages/examples/invoice.html"/>"><i class="fa fa-circle-o"></i> Invoice</a></li>
-            <li><a href="<c:url value="/WEB-INF/jsp/pages/examples/profile.html"/>"><i class="fa fa-circle-o"></i> Profile</a></li>
+            <li><a href="<c:url value="/WEB-INF/jsp/pages/examples/detail.jsp"/>"><i class="fa fa-circle-o"></i> Profile</a></li>
             <li><a href="<c:url value="/WEB-INF/jsp/pages/examples/login.html"/>"><i class="fa fa-circle-o"></i> Login</a></li>
             <li><a href="<c:url value="/WEB-INF/jsp/pages/examples/register.html"/>"><i class="fa fa-circle-o"></i> Register</a></li>
             <li><a href="<c:url value="/WEB-INF/jsp/pages/examples/lockscreen.html"/>"><i class="fa fa-circle-o"></i> Lockscreen</a></li>

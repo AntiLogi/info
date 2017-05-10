@@ -1,15 +1,17 @@
 package com.bdqnsh.student.controller;
 
+import com.bdqnsh.student.constans.IRole;
 import com.bdqnsh.student.model.Admin;
 import com.bdqnsh.student.model.Student;
+import com.bdqnsh.student.service.AdminService;
 import com.bdqnsh.student.service.StudentService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 import javax.servlet.http.HttpServletRequest;
-import java.util.Date;
 
 /**
  * Created by Administrator on 2017/5/4.
@@ -23,11 +25,32 @@ public class StudentController {
 
     @Autowired
     private HttpServletRequest request;
+    @Autowired
+    private AdminService adminService;
 
+    /**
+     * 学员开档填写页面
+     *
+     * @return
+     */
     @RequestMapping(value = "index")
     public String index() {
-        return "widgets";
+        return "addStudent/create";
     }
+
+    /**
+     * 学员开班后填写页面（学员第二次填写）
+     *
+     * @return
+     */
+    @RequestMapping(value = "second")
+    public String second(Model model) {
+
+
+        model.addAttribute("teachers",adminService.getAdminsByRole(IRole.TEACHER));
+        return "addStudent/second";
+    }
+
 
     @RequestMapping(value = "primary")
     @ResponseBody
@@ -40,10 +63,29 @@ public class StudentController {
             result = 1;
             return result;
         }
-       result= studentService.createStudent(student, admin.getId());
+        result = studentService.createStudent(student, admin.getId());
 
 
         return result;
     }
+
+    /**
+     * 学生信息展示页面
+     * @param model
+     * @return
+     */
+    @RequestMapping(value = "toStudentList")
+    public String toStudentList(Model model){
+
+        model.addAttribute("students", studentService.getClassBeginStudents());
+
+        return "student/studentList";
+    }
+    @RequestMapping(value = "toDetail")
+    public String toDetail(Long id,Model model){
+      model.addAttribute("student",  studentService.getStudentById(id));
+      return "student/detail";
+    }
+
 
 }
