@@ -98,7 +98,7 @@
                     </button>
                     <ul class="dropdown-menu" role="menu">
                       <li><a href="javascript:detail(${data.id})">详情资料</a></li>
-                      <li><a href="#">编辑资料</a></li>
+                      <li><a href="javascript:edit(${data.id})">编辑资料</a></li>
 
                     </ul>
                   </div></td>
@@ -356,7 +356,7 @@
 
 <script>
     function edit(id) {
-
+        location.href = "<c:url value="/student/toEdit.html"/>?id="+id;
     }
 
     function detail(id) {

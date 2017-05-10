@@ -2,97 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b408041a-67f8-44b6-bdb0-10cdfc8b9a4a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/bdqnsh/student/constans/IRole.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/bdqnsh/student/constans/IStudent.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/bdqnsh/student/service/AdminService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/pages/addStudent/create.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/pages/student/detail.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/pages/student/studentList.jsp" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/pages/tables/data.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ass/WEB-INF/jsp/pages/tables/data.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ass/WEB-INF/jsp/pages/tables/simple.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ass/WEB-INF/jsp/pages/widgets.jsp" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/pages/student/edit.jsp" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/bdqnsh/student/controller/StudentController.class" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/ass/WEB-INF/classes/com/bdqnsh/student/RegexTest.class" afterPath="$PROJECT_DIR$/target/ass/WEB-INF/classes/com/bdqnsh/student/RegexTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/ass/WEB-INF/classes/com/bdqnsh/student/controller/StudentController.class" afterPath="$PROJECT_DIR$/target/ass/WEB-INF/classes/com/bdqnsh/student/controller/StudentController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/ass/WEB-INF/classes/com/bdqnsh/student/dao/AdminMapper.class" afterPath="$PROJECT_DIR$/target/ass/WEB-INF/classes/com/bdqnsh/student/dao/AdminMapper.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/ass/WEB-INF/classes/com/bdqnsh/student/dao/StudentMapper.class" afterPath="$PROJECT_DIR$/target/ass/WEB-INF/classes/com/bdqnsh/student/dao/StudentMapper.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/ass/WEB-INF/classes/com/bdqnsh/student/model/Student.class" afterPath="$PROJECT_DIR$/target/ass/WEB-INF/classes/com/bdqnsh/student/model/Student.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/bdqnsh/student/RegexTest.class" afterPath="$PROJECT_DIR$/target/classes/com/bdqnsh/student/RegexTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/bdqnsh/student/dao/AdminMapper.class" afterPath="$PROJECT_DIR$/target/classes/com/bdqnsh/student/dao/AdminMapper.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/bdqnsh/student/dao/StudentMapper.class" afterPath="$PROJECT_DIR$/target/classes/com/bdqnsh/student/dao/StudentMapper.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/bdqnsh/student/model/Student.class" afterPath="$PROJECT_DIR$/target/classes/com/bdqnsh/student/model/Student.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/bdqnsh/student/RegexTest.java" afterPath="$PROJECT_DIR$/src/main/java/com/bdqnsh/student/RegexTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/bdqnsh/student/controller/StudentController.java" afterPath="$PROJECT_DIR$/src/main/java/com/bdqnsh/student/controller/StudentController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/bdqnsh/student/dao/AdminMapper.java" afterPath="$PROJECT_DIR$/src/main/java/com/bdqnsh/student/dao/AdminMapper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/bdqnsh/student/dao/StudentMapper.java" afterPath="$PROJECT_DIR$/src/main/java/com/bdqnsh/student/dao/StudentMapper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/bdqnsh/student/model/Student.java" afterPath="$PROJECT_DIR$/src/main/java/com/bdqnsh/student/model/Student.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/bdqnsh/student/service/StudentService.java" afterPath="$PROJECT_DIR$/src/main/java/com/bdqnsh/student/service/StudentService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/mapper/AdminMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/mapper/AdminMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/mapper/StudentMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/mapper/StudentMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/pages/UI/buttons.html" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/pages/UI/buttons.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/pages/UI/general.html" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/pages/UI/general.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/pages/UI/icons.html" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/pages/UI/icons.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/pages/UI/modals.html" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/pages/UI/modals.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/pages/UI/sliders.html" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/pages/UI/sliders.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/pages/UI/timeline.html" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/pages/UI/timeline.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/pages/calendar.html" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/pages/calendar.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/pages/charts/chartjs.html" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/pages/charts/chartjs.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/pages/charts/flot.html" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/pages/charts/flot.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/pages/charts/inline.html" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/pages/charts/inline.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/pages/charts/morris.html" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/pages/charts/morris.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/pages/examples/404.html" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/pages/examples/404.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/pages/examples/500.html" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/pages/examples/500.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/pages/examples/blank.html" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/pages/examples/blank.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/pages/examples/invoice.html" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/pages/examples/invoice.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/pages/examples/pace.html" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/pages/examples/pace.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/pages/examples/profile.html" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/pages/examples/profile.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/pages/forms/advanced.html" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/pages/forms/advanced.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/pages/forms/editors.html" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/pages/forms/editors.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/pages/forms/general.html" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/pages/forms/general.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/pages/index.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/pages/index.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/pages/layout/boxed.html" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/pages/layout/boxed.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/pages/layout/collapsed-sidebar.html" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/pages/layout/collapsed-sidebar.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/pages/layout/fixed.html" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/pages/layout/fixed.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/pages/mailbox/compose.html" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/pages/mailbox/compose.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/pages/mailbox/mailbox.html" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/pages/mailbox/mailbox.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/pages/mailbox/read-mail.html" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/pages/mailbox/read-mail.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/pages/topAndLeft.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/pages/topAndLeft.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/ass/WEB-INF/classes/mapper/AdminMapper.xml" afterPath="$PROJECT_DIR$/target/ass/WEB-INF/classes/mapper/AdminMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/ass/WEB-INF/classes/mapper/StudentMapper.xml" afterPath="$PROJECT_DIR$/target/ass/WEB-INF/classes/mapper/StudentMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/ass/WEB-INF/jsp/pages/UI/buttons.html" afterPath="$PROJECT_DIR$/target/ass/WEB-INF/jsp/pages/UI/buttons.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/ass/WEB-INF/jsp/pages/UI/general.html" afterPath="$PROJECT_DIR$/target/ass/WEB-INF/jsp/pages/UI/general.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/ass/WEB-INF/jsp/pages/UI/icons.html" afterPath="$PROJECT_DIR$/target/ass/WEB-INF/jsp/pages/UI/icons.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/ass/WEB-INF/jsp/pages/UI/modals.html" afterPath="$PROJECT_DIR$/target/ass/WEB-INF/jsp/pages/UI/modals.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/ass/WEB-INF/jsp/pages/UI/sliders.html" afterPath="$PROJECT_DIR$/target/ass/WEB-INF/jsp/pages/UI/sliders.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/ass/WEB-INF/jsp/pages/UI/timeline.html" afterPath="$PROJECT_DIR$/target/ass/WEB-INF/jsp/pages/UI/timeline.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/ass/WEB-INF/jsp/pages/calendar.html" afterPath="$PROJECT_DIR$/target/ass/WEB-INF/jsp/pages/calendar.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/ass/WEB-INF/jsp/pages/charts/chartjs.html" afterPath="$PROJECT_DIR$/target/ass/WEB-INF/jsp/pages/charts/chartjs.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/ass/WEB-INF/jsp/pages/charts/flot.html" afterPath="$PROJECT_DIR$/target/ass/WEB-INF/jsp/pages/charts/flot.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/ass/WEB-INF/jsp/pages/charts/inline.html" afterPath="$PROJECT_DIR$/target/ass/WEB-INF/jsp/pages/charts/inline.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/ass/WEB-INF/jsp/pages/charts/morris.html" afterPath="$PROJECT_DIR$/target/ass/WEB-INF/jsp/pages/charts/morris.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/ass/WEB-INF/jsp/pages/examples/404.html" afterPath="$PROJECT_DIR$/target/ass/WEB-INF/jsp/pages/examples/404.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/ass/WEB-INF/jsp/pages/examples/500.html" afterPath="$PROJECT_DIR$/target/ass/WEB-INF/jsp/pages/examples/500.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/ass/WEB-INF/jsp/pages/examples/blank.html" afterPath="$PROJECT_DIR$/target/ass/WEB-INF/jsp/pages/examples/blank.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/ass/WEB-INF/jsp/pages/examples/invoice.html" afterPath="$PROJECT_DIR$/target/ass/WEB-INF/jsp/pages/examples/invoice.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/ass/WEB-INF/jsp/pages/examples/pace.html" afterPath="$PROJECT_DIR$/target/ass/WEB-INF/jsp/pages/examples/pace.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/ass/WEB-INF/jsp/pages/examples/profile.html" afterPath="$PROJECT_DIR$/target/ass/WEB-INF/jsp/pages/examples/profile.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/ass/WEB-INF/jsp/pages/forms/advanced.html" afterPath="$PROJECT_DIR$/target/ass/WEB-INF/jsp/pages/forms/advanced.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/ass/WEB-INF/jsp/pages/forms/editors.html" afterPath="$PROJECT_DIR$/target/ass/WEB-INF/jsp/pages/forms/editors.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/ass/WEB-INF/jsp/pages/forms/general.html" afterPath="$PROJECT_DIR$/target/ass/WEB-INF/jsp/pages/forms/general.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/ass/WEB-INF/jsp/pages/index.jsp" afterPath="$PROJECT_DIR$/target/ass/WEB-INF/jsp/pages/index.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/ass/WEB-INF/jsp/pages/layout/boxed.html" afterPath="$PROJECT_DIR$/target/ass/WEB-INF/jsp/pages/layout/boxed.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/ass/WEB-INF/jsp/pages/layout/collapsed-sidebar.html" afterPath="$PROJECT_DIR$/target/ass/WEB-INF/jsp/pages/layout/collapsed-sidebar.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/ass/WEB-INF/jsp/pages/layout/fixed.html" afterPath="$PROJECT_DIR$/target/ass/WEB-INF/jsp/pages/layout/fixed.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/ass/WEB-INF/jsp/pages/mailbox/compose.html" afterPath="$PROJECT_DIR$/target/ass/WEB-INF/jsp/pages/mailbox/compose.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/ass/WEB-INF/jsp/pages/mailbox/mailbox.html" afterPath="$PROJECT_DIR$/target/ass/WEB-INF/jsp/pages/mailbox/mailbox.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/ass/WEB-INF/jsp/pages/mailbox/read-mail.html" afterPath="$PROJECT_DIR$/target/ass/WEB-INF/jsp/pages/mailbox/read-mail.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/ass/WEB-INF/jsp/pages/topAndLeft.jsp" afterPath="$PROJECT_DIR$/target/ass/WEB-INF/jsp/pages/topAndLeft.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/mapper/AdminMapper.xml" afterPath="$PROJECT_DIR$/target/classes/mapper/AdminMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/mapper/StudentMapper.xml" afterPath="$PROJECT_DIR$/target/classes/mapper/StudentMapper.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/pages/tables/simple.html" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/pages/student/simple.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/pages/widgets.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/pages/addStudent/second.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/pages/student/detail.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/pages/student/detail.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/pages/student/studentList.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/pages/student/studentList.jsp" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -188,8 +103,8 @@
       <file leaf-file-name="StudentController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/bdqnsh/student/controller/StudentController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
-              <caret line="86" column="23" lean-forward="false" selection-start-line="86" selection-start-column="23" selection-end-line="86" selection-end-column="23" />
+            <state relative-caret-position="155">
+              <caret line="90" column="28" lean-forward="false" selection-start-line="90" selection-start-column="28" selection-end-line="90" selection-end-column="28" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -200,21 +115,22 @@
       <file leaf-file-name="studentList.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/pages/student/studentList.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="138">
-              <caret line="363" column="73" lean-forward="true" selection-start-line="363" selection-start-column="73" selection-end-line="363" selection-end-column="73" />
-              <folding>
-                <marker date="1494399919975" expanded="true" signature="3182:4239" ph="..." />
-              </folding>
+            <state relative-caret-position="-1267">
+              <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="detail.jsp" pinned="false" current-in-tab="true">
+      <file leaf-file-name="detail.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/pages/student/detail.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="12">
-              <caret line="136" column="41" lean-forward="false" selection-start-line="136" selection-start-column="41" selection-end-line="136" selection-end-column="41" />
-              <folding />
+            <state relative-caret-position="266">
+              <caret line="87" column="62" lean-forward="false" selection-start-line="87" selection-start-column="62" selection-end-line="87" selection-end-column="62" />
+              <folding>
+                <element signature="n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#section#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#2;n#div#0;n#div#0;n#div#1;n#div#0;n#section#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -229,11 +145,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/pages/index.jsp">
+      <file leaf-file-name="create.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/pages/addStudent/create.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="94" column="26" lean-forward="true" selection-start-line="94" selection-start-column="26" selection-end-line="94" selection-end-column="26" />
+            <state relative-caret-position="348">
+              <caret line="388" column="77" lean-forward="true" selection-start-line="388" selection-start-column="77" selection-end-line="388" selection-end-column="77" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="edit.jsp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/pages/student/edit.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="266">
+              <caret line="548" column="63" lean-forward="true" selection-start-line="548" selection-start-column="63" selection-end-line="548" selection-end-column="63" />
               <folding />
             </state>
           </provider>
@@ -252,8 +178,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>infoForm</find>
-      <find>qq</find>
       <find>we</find>
       <find>info_source</find>
       <find>emergencyContact</find>
@@ -281,6 +205,8 @@
       <find>plug</find>
       <find>Application Buttons</find>
       <find>.btn-app</find>
+      <find>Activity</find>
+      <find>Timeline</find>
       <find>Split buttons</find>
     </findStrings>
   </component>
@@ -328,7 +254,6 @@
         <option value="$PROJECT_DIR$/src/main/resources/mapper/AdminMapper.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/bdqnsh/student/model/Student.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/pages/addStudent/second.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/pages/addStudent/create.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/bdqnsh/student/constans/IStudent.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/bdqnsh/student/dao/StudentMapper.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/pages/topAndLeft.jsp" />
@@ -336,9 +261,11 @@
         <option value="$PROJECT_DIR$/src/main/webapp/css/dist/AdminLTE.min.css" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/pages/tables/studentList.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/bdqnsh/student/service/StudentService.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/pages/student/detail.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/bdqnsh/student/controller/StudentController.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/pages/student/studentList.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/pages/student/detail.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/pages/addStudent/create.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/pages/student/edit.jsp" />
       </list>
     </option>
   </component>
@@ -643,7 +570,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="examples" />
+              <option name="myItemId" value="addStudent" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1475,7 +1402,7 @@
       <workItem from="1493949382178" duration="12919000" />
       <workItem from="1494209805682" duration="13834000" />
       <workItem from="1494294472520" duration="18038000" />
-      <workItem from="1494381975210" duration="13016000" />
+      <workItem from="1494381975210" duration="22095000" />
     </task>
     <task id="LOCAL-00001" summary="测试本地提交">
       <created>1493887810570</created>
@@ -1526,11 +1453,18 @@
       <option name="project" value="LOCAL" />
       <updated>1494241016514</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="studentInformation-ver1.0.5">
+      <created>1494403719314</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1494403719314</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="151993000" />
+    <option name="totallyTimeSpent" value="161072000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1547,7 +1481,7 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6666667" sideWeight="0.42586988" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.13584287" sideWeight="0.42965204" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.14599092" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1557,7 +1491,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.13584287" sideWeight="0.5741301" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5188216" sideWeight="0.57034796" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32733223" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1603928" sideWeight="0.4515885" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1568,7 +1502,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17700455" sideWeight="0.49346405" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.09531014" sideWeight="0.49346405" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22087745" sideWeight="0.50653595" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32569557" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -1597,7 +1531,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13584287" sideWeight="0.5741301" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.13584287" sideWeight="0.5741301" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32733223" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1603928" sideWeight="0.4515885" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1610,7 +1544,7 @@
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17700455" sideWeight="0.49346405" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.09531014" sideWeight="0.49346405" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22087745" sideWeight="0.50653595" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32569557" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -1629,7 +1563,8 @@
     <MESSAGE value="studentInformation-ver1.0.2" />
     <MESSAGE value="studentInformation-ver1.0.3" />
     <MESSAGE value="studentInformation-ver1.0.4" />
-    <option name="LAST_COMMIT_MESSAGE" value="studentInformation-ver1.0.4" />
+    <MESSAGE value="studentInformation-ver1.0.5" />
+    <option name="LAST_COMMIT_MESSAGE" value="studentInformation-ver1.0.5" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1642,13 +1577,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/plugins/select2/select2.full.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="6409" column="0" lean-forward="true" selection-start-line="6409" selection-start-column="0" selection-end-line="6409" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/plugins/select2/select2.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="194">
@@ -1860,14 +1788,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/pages/addStudent/create.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="306" column="67" lean-forward="false" selection-start-line="306" selection-start-column="67" selection-end-line="306" selection-end-column="67" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/bdqnsh/student/constans/IStudent.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
@@ -2007,23 +1927,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/pages/student/studentList.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/pages/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="363" column="73" lean-forward="true" selection-start-line="363" selection-start-column="73" selection-end-line="363" selection-end-column="73" />
-          <folding>
-            <marker date="1494399919975" expanded="true" signature="3182:4239" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/bdqnsh/student/controller/StudentController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="86" column="23" lean-forward="false" selection-start-line="86" selection-start-column="23" selection-end-line="86" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="25">
+          <caret line="753" column="0" lean-forward="false" selection-start-line="753" selection-start-column="0" selection-end-line="754" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -2035,18 +1943,47 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/pages/index.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/pages/student/detail.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="94" column="26" lean-forward="true" selection-start-line="94" selection-start-column="26" selection-end-line="94" selection-end-column="26" />
+        <state relative-caret-position="266">
+          <caret line="87" column="62" lean-forward="false" selection-start-line="87" selection-start-column="62" selection-end-line="87" selection-end-column="62" />
+          <folding>
+            <element signature="n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#section#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#2;n#div#0;n#div#0;n#div#1;n#div#0;n#section#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bdqnsh/student/controller/StudentController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="90" column="28" lean-forward="false" selection-start-line="90" selection-start-column="28" selection-end-line="90" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/pages/student/studentList.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1267">
+          <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/pages/student/detail.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/pages/addStudent/create.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="12">
-          <caret line="136" column="41" lean-forward="false" selection-start-line="136" selection-start-column="41" selection-end-line="136" selection-end-column="41" />
+        <state relative-caret-position="348">
+          <caret line="388" column="77" lean-forward="true" selection-start-line="388" selection-start-column="77" selection-end-line="388" selection-end-column="77" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/pages/student/edit.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="548" column="63" lean-forward="true" selection-start-line="548" selection-start-column="63" selection-end-line="548" selection-end-column="63" />
           <folding />
         </state>
       </provider>

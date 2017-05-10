@@ -85,7 +85,7 @@
                 </li>
               </ul>
 
-              <a href="#" class="btn btn-primary btn-block"><b>Follow</b></a>
+              <a href="#" class="btn btn-primary btn-block"><b>修改资料</b></a>
             </div>
             <!-- /.box-body -->
           </div>
@@ -149,6 +149,7 @@
                 紧急联系人：${student.emergencyContact}<br/>
                 紧急联系电话：${student.emergencyContactPhone}<br/>
                 身份证号码：${student.identityCard}<br/>
+                邮编：${student.postCode}<br/>
 
               </p>
 
@@ -170,32 +171,13 @@
               <div class="active tab-pane" id="activity">
                 <!-- Post -->
                 <div class="post">
-                  <div class="user-block">
-                    <img class="img-circle img-bordered-sm" src="<c:url value="/img/dist/user1-128x128.jpg"/>" alt="user image">
-                        <span class="username">
-                          <a href="#">Jonathan Burke Jr.</a>
-                          <a href="#" class="pull-right btn-box-tool"><i class="fa fa-times"></i></a>
-                        </span>
-                    <span class="description">Shared publicly - 7:30 PM today</span>
-                  </div>
-                  <!-- /.user-block -->
-                  <p>
-                    Lorem ipsum represents a long-held tradition for designers,
-                    typographers and the like. Some people hate it and argue for
-                    its demise, but others ignore the hate as they create awesome
-                    tools to help create filler text for everyone from bacon lovers
-                    to Charlie Sheen fans.
-                  </p>
-                  <ul class="list-inline">
-                    <li><a href="#" class="link-black text-sm"><i class="fa fa-share margin-r-5"></i> Share</a></li>
-                    <li><a href="#" class="link-black text-sm"><i class="fa fa-thumbs-o-up margin-r-5"></i> Like</a>
-                    </li>
-                    <li class="pull-right">
-                      <a href="#" class="link-black text-sm"><i class="fa fa-comments-o margin-r-5"></i> Comments
-                        (5)</a></li>
-                  </ul>
+                 <p>
+                   工作履历：<br/>
+                   单位：${student.company1} 年份：${student.workDate1}职位：${student.position1}工作内容描述：${student.workContent1}<br/>
+                   单位：${student.company2} 年份：${student.workDate2}职位：${student.position2}工作内容描述：${student.workContent2}<br/>
+                   单位：${student.company3} 年份：${student.workDate3}职位：${student.position3}工作内容描述：${student.workContent3}<br/>
 
-                  <input class="form-control input-sm" type="text" placeholder="Type a comment">
+                 </p>
                 </div>
                 <!-- /.post -->
 

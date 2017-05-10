@@ -70,7 +70,7 @@ public class StudentController {
     }
 
     /**
-     * 学生信息展示页面
+     * 学生信息展示列表
      * @param model
      * @return
      */
@@ -81,11 +81,26 @@ public class StudentController {
 
         return "student/studentList";
     }
+
+    /**
+     *学员信息详情
+     * @param id
+     * @param model
+     * @return
+     */
     @RequestMapping(value = "toDetail")
     public String toDetail(Long id,Model model){
       model.addAttribute("student",  studentService.getStudentById(id));
       return "student/detail";
     }
 
+    /**
+     * 学员信息修改
+     */
+    @RequestMapping(value = "toEdit")
+    public String toEdit(Long id,Model model){
+        model.addAttribute("student",  studentService.getStudentById(id));
 
+        return "student/edit";
+    }
 }
